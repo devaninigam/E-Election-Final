@@ -29,6 +29,7 @@ const UserLogin = () => {
                 Cookies.set("role", res.data.data.role);
                 Cookies.set("_id", res.data.data._id);
                 Cookies.set("name", res.data.data.name) 
+                Cookies.set("cardNo", res.data.data.cardNo) 
                 window.location = '/';
             })
             .catch((error) => {

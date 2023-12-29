@@ -8,8 +8,7 @@ const InitialState = {
     isError: null
 }
 
-const voteReducer = (state = InitialState, action) => {
-    console.log(action);
+const voteReducer = (state = InitialState, action) => { 
     switch (action.type) {
         case VOTE_POST_PROGRESS:
             return {

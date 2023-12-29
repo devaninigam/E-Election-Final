@@ -15,8 +15,7 @@ const initialState = {
   DataIsLoaded: false
 };
 
-function PartyConnectReducer(state = initialState, action) {
-  console.log("Party Reducer", action);
+function PartyConnectReducer(state = initialState, action) { 
   switch (action.type) {
 
     // PARTYCONNECT GET DATA ACTION --- GET
