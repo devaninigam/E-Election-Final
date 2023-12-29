@@ -104,7 +104,7 @@ const Voting = () => {
                                 title: 'You have already submitted a vote',
                                 text: 'Thank you for visiting!',
                                 icon: 'info',
-                                confirmButtonText: 'Conform',
+                                confirmButtonText: 'Confirm',
                             }).then((result) => {
                                 if (result.isConfirmed) {
                                     handleConformClick();
